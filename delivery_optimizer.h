@@ -7,6 +7,7 @@
 #include <algorithm>
 
 class DeliveryOptimizer {
+
 public:
     DeliveryOptimizer(const Location& start, const Location& r1, const Location& r2,
                       const Location& c1, const Location& c2, double pt1, double pt2)
