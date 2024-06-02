@@ -2,6 +2,7 @@
 #define LOCATION_H
 
 class Location {
+
 public:
     Location(double latitude, double longitude)
         : latitude(latitude), longitude(longitude) {}
