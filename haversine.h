@@ -4,6 +4,7 @@
 #include <cmath>
 
 class Haversine {
+
 public:
     static double calculate(double lat1, double lon1, double lat2, double lon2) {
         static const double R = 6371.0; // Earth's radius in km
